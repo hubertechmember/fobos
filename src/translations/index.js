@@ -3,160 +3,192 @@ export const translations = {
   navigation: {
     en: {
       home: "Home",
-      services: "Our Services",
-      experience: "VR Experience",
-      consultation: "Schedule Consultation",
+      technology: "Technology",
+      research: "Research",
+      partnership: "Partnership",
+      contact: "Contact",
     },
     pl: {
       home: "Strona główna",
-      services: "Nasze usługi",
-      experience: "Doświadczenie VR",
-      consultation: "Umów konsultację",
+      technology: "Technologia",
+      research: "Badania",
+      partnership: "Partnerstwo",
+      contact: "Kontakt",
     },
   },
   hero: {
     en: {
-      subtitle: "Evidence-Based VR Therapy",
-      title: "Transform Your Clinical Practice",
-      description:
-        "FOBOS delivers clinically-validated virtual reality exposure therapy solutions, helping mental health professionals achieve better patient outcomes with measurable results.",
-      cta: "Schedule Demo",
+      subtitle: "Virtual Reality Technology Platform",
+      title: "Pioneer the Future of VR in Mental Health",
+      description: "Partner with FOBOS to develop advanced virtual reality solutions for your clinical practice. Our technology provides the foundation for innovative therapeutic applications.",
+      cta: "Explore Partnership",
     },
     pl: {
-      subtitle: "Terapia VR oparta na dowodach",
-      title: "Zrewolucjonizuj swoją praktykę kliniczną",
-      description:
-        "FOBOS dostarcza klinicznie zwalidowane rozwiązania terapii ekspozycji w wirtualnej rzeczywistości, pomagając specjalistom zdrowia psychicznego osiągać lepsze wyniki z pacjentami.",
-      cta: "Umów prezentację",
+      subtitle: "Platforma Technologiczna VR",
+      title: "Kształtuj przyszłość VR w zdrowiu psychicznym",
+      description: "Rozpocznij współpracę z FOBOS, by rozwijać zaawansowane rozwiązania wirtualnej rzeczywistości dla swojej praktyki klinicznej. Nasza technologia stanowi fundament dla innowacyjnych zastosowań terapeutycznych.",
+      cta: "Poznaj możliwości współpracy",
     },
   },
-  services: {
+  technology: {
     en: {
-      title: "Clinical Excellence Through Innovation",
-      subtitle:
-        "Enhance your practice with evidence-based VR exposure therapy tools designed for mental health professionals.",
+      title: "Our Technology",
+      subtitle: "Virtual Reality Platform",
+      description: "A foundation for exploring and developing VR applications in therapeutic settings",
       features: [
         {
-          title: "Evidence-Based Protocol",
-          description:
-            "Clinically validated exposure therapy protocols based on extensive research and real-world application.",
+          title: "VR Environment",
+          description: "Immersive virtual scenarios designed for therapeutic applications with interactive elements and controlled environments.",
         },
         {
-          title: "Customizable Treatment",
-          description:
-            "Adjust exposure intensity and scenarios to match individual patient needs and treatment plans.",
+          title: "Viewing Options",
+          description: "Compatible with modern VR headsets, featuring an intuitive preview mode for easy scenario assessment.",
         },
         {
-          title: "Progress Tracking",
-          description:
-            "Comprehensive analytics and reporting tools to monitor patient progress and treatment effectiveness.",
+          title: "Basic Controls",
+          description: "Simple navigation system allowing for straightforward control of the virtual environment and user experience.",
         },
       ],
     },
     pl: {
-      title: "Doskonałość kliniczna poprzez innowację",
-      subtitle:
-        "Udoskonal swoją praktykę przy użyciu narzędzi terapii ekspozycji VR opartych na dowodach naukowych.",
+      title: "Nasza Technologia",
+      subtitle: "Platforma Wirtualnej Rzeczywistości",
+      description: "Fundament do eksploracji i rozwoju aplikacji VR w kontekście terapeutycznym",
       features: [
         {
-          title: "Protokół oparty na dowodach",
-          description:
-            "Klinicznie zwalidowane protokoły terapii ekspozycyjnej oparte na szeroko zakrojonych badaniach i praktycznym zastosowaniu.",
+          title: "Środowisko VR",
+          description: "Immersyjne scenariusze wirtualne zaprojektowane do zastosowań terapeutycznych z elementami interaktywnymi i kontrolowanym środowiskiem.",
         },
         {
-          title: "Personalizowane leczenie",
-          description:
-            "Dostosuj intensywność ekspozycji i scenariusze do indywidualnych potrzeb pacjenta i planów leczenia.",
+          title: "Opcje Wyświetlania",
+          description: "Kompatybilność z nowoczesnymi goglami VR, z intuicyjnym trybem podglądu do łatwej oceny scenariuszy.",
         },
         {
-          title: "Śledzenie postępów",
-          description:
-            "Kompleksowe narzędzia analityczne i raportowania do monitorowania postępów pacjenta i skuteczności leczenia.",
+          title: "Podstawowe Sterowanie",
+          description: "Prosty system nawigacji umożliwiający sprawną kontrolę środowiska wirtualnego i doświadczenia użytkownika.",
         },
       ],
     },
   },
-  experience: {
+  research: {
     en: {
-      title: "Professional VR Solution for Clinical Practice",
-      description:
-        "Our VR platform is designed to meet the highest standards of clinical practice while providing an intuitive experience for both practitioners and patients.",
-      benefits: [
+      title: "Research Background",
+      subtitle: "Informed by Scientific Research",
+      description: "Our development is guided by current scientific studies demonstrating the potential of virtual reality in exposure therapy settings.",
+      stats: {
+        field: "Growing Field",
+        fieldDesc: "Active research in VR therapy applications",
+        evidence: "Evidence-Based",
+        evidenceDesc: "Development guided by current studies",
+      },
+      areas: [
         {
-          title: "Clinical Documentation",
-          description:
-            "Comprehensive session reports and progress tracking for regulatory compliance and treatment optimization.",
+          title: "Current Research Focus",
+          description: "Following latest developments in VR applications for therapeutic settings",
         },
         {
-          title: "Team Integration",
-          description:
-            "Easy-to-use platform that integrates seamlessly with your existing clinical workflows and team structure.",
+          title: "Academic Collaboration",
+          description: "Working with experts to ensure evidence-based development approach",
         },
         {
-          title: "Real-time Monitoring",
-          description:
-            "Monitor patient responses and adjust exposure parameters in real-time for optimal therapeutic outcomes.",
+          title: "Research Opportunities",
+          description: "Open to collaborative research projects with partners",
         },
       ],
     },
     pl: {
-      title: "Profesjonalne rozwiązanie VR dla praktyki klinicznej",
-      description:
-        "Nasza platforma VR jest zaprojektowana, aby spełniać najwyższe standardy praktyki klinicznej, zapewniając intuicyjne doświadczenie zarówno dla specjalistów, jak i pacjentów.",
-      benefits: [
+      title: "Podstawy Badawcze",
+      subtitle: "W oparciu o badania naukowe",
+      description: "Nasz rozwój jest kierowany aktualnymi badaniami naukowymi pokazującymi potencjał wirtualnej rzeczywistości w terapii ekspozycyjnej.",
+      stats: {
+        field: "Rozwijająca się dziedzina",
+        fieldDesc: "Aktywne badania nad zastosowaniami VR w terapii",
+        evidence: "Oparcie w dowodach",
+        evidenceDesc: "Rozwój kierowany aktualnymi badaniami",
+      },
+      areas: [
         {
-          title: "Dokumentacja kliniczna",
-          description:
-            "Kompleksowe raporty z sesji i śledzenie postępów dla zgodności z przepisami i optymalizacji leczenia.",
+          title: "Aktualny fokus badawczy",
+          description: "Śledzimy najnowsze osiągnięcia w zastosowaniach VR w kontekście terapeutycznym",
         },
         {
-          title: "Integracja zespołowa",
-          description:
-            "Łatwa w użyciu platforma, która bezproblemowo integruje się z istniejącymi procesami klinicznymi i strukturą zespołu.",
+          title: "Współpraca akademicka",
+          description: "Współpracujemy z ekspertami, by zapewnić rozwój oparty na dowodach",
         },
         {
-          title: "Monitorowanie w czasie rzeczywistym",
-          description:
-            "Monitoruj reakcje pacjenta i dostosowuj parametry ekspozycji w czasie rzeczywistym dla optymalnych wyników terapeutycznych.",
+          title: "Możliwości badawcze",
+          description: "Jesteśmy otwarci na wspólne projekty badawcze z partnerami",
         },
       ],
     },
   },
-  consultation: {
+  partnership: {
     en: {
-      title: "Schedule a Professional Consultation",
-      subtitle:
-        "Learn how FOBOS can enhance your clinical practice through a personalized demonstration and ROI analysis.",
-      features: [
-        "Detailed platform demonstration",
-        "Implementation strategy discussion",
-        "ROI analysis for your practice",
-        "Clinical integration planning",
-      ],
-      form: {
-        name: "Full Name",
-        email: "Work Email",
-        organization: "Organization Name",
-        message: "How can we help your practice?",
-        submit: "Request Consultation",
+      title: "Partnership Opportunity",
+      subtitle: "Join Us in Developing VR Applications",
+      description: "Collaborate with us to shape the future of VR technology in therapeutic settings",
+      offering: {
+        title: "What We Offer",
+        items: [
+          "Access to our VR platform",
+          "Technical support and guidance",
+          "Collaborative development approach",
+          "Regular platform updates",
+        ],
+      },
+      looking: {
+        title: "What We're Looking For",
+        items: [
+          "Clinical expertise and feedback",
+          "Real-world testing environment",
+          "Input on practical applications",
+          "Long-term partnership commitment",
+        ],
       },
     },
     pl: {
-      title: "Umów profesjonalną konsultację",
-      subtitle:
-        "Dowiedz się, jak FOBOS może ulepszyć Twoją praktykę kliniczną poprzez spersonalizowaną prezentację i analizę ROI.",
-      features: [
-        "Szczegółowa prezentacja platformy",
-        "Omówienie strategii wdrożenia",
-        "Analiza ROI dla Twojej praktyki",
-        "Planowanie integracji klinicznej",
-      ],
+      title: "Możliwość Współpracy",
+      subtitle: "Dołącz do rozwoju aplikacji VR",
+      description: "Współpracuj z nami przy kształtowaniu przyszłości technologii VR w kontekście terapeutycznym",
+      offering: {
+        title: "Co oferujemy",
+        items: [
+          "Dostęp do naszej platformy VR",
+          "Wsparcie techniczne i doradztwo",
+          "Współpracę przy rozwoju",
+          "Regularne aktualizacje platformy",
+        ],
+      },
+      looking: {
+        title: "Czego szukamy",
+        items: [
+          "Ekspertyzy klinicznej i feedbacku",
+          "Środowiska do testów w realnych warunkach",
+          "Wkładu w praktyczne zastosowania",
+          "Zaangażowania w długoterminową współpracę",
+        ],
+      },
+    },
+  },
+  contact: {
+    en: {
+      title: "Let's Discuss VR Technology in Your Practice",
       form: {
-        name: "Imię i nazwisko",
-        email: "Email służbowy",
+        organization: "Organization Name",
+        name: "Contact Person",
+        role: "Role",
+        message: "Tell us about your interests and questions",
+        submit: "Start Discussion",
+      },
+    },
+    pl: {
+      title: "Porozmawiajmy o technologii VR w Twojej praktyce",
+      form: {
         organization: "Nazwa organizacji",
-        message: "Jak możemy pomóc Twojej praktyce?",
-        submit: "Poproś o konsultację",
+        name: "Osoba kontaktowa",
+        role: "Stanowisko",
+        message: "Opisz swoje zainteresowania i pytania",
+        submit: "Rozpocznij rozmowę",
       },
     },
   },
