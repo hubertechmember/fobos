@@ -1,6 +1,6 @@
 // src/components/ResearchSection.jsx
 import React from 'react';
-import { BookOpen, Library, Users } from 'lucide-react';
+import { Gauge, Video, Scale } from 'lucide-react'; // Zmieniłem ikony na bardziej odpowiednie
 
 const ResearchSection = () => {
   return (
@@ -10,58 +10,58 @@ const ResearchSection = () => {
           {/* Left Column - Main Content */}
           <div>
             <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">
-              Research Background
+              Our Technology Foundation
             </h2>
             <p className="mt-2 text-3xl font-extrabold text-gray-900">
-              Informed by Scientific Research
+              Research-Based VR Platform
             </p>
             <p className="mt-4 text-lg text-gray-500">
-              Our development is guided by current scientific studies demonstrating 
-              the potential of virtual reality in exposure therapy settings.
+              FOBOS combines immersive 360° VR environments with validated 
+              therapeutic assessment methods to create controlled exposure scenarios.
             </p>
             
-            {/* Research Stats Grid */}
+            {/* Core Features Grid */}
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="border-l-4 border-teal-500 pl-4">
-                <p className="text-2xl font-bold text-gray-900">Growing Field</p>
-                <p className="text-gray-600">Active research in VR therapy applications</p>
+                <p className="text-2xl font-bold text-gray-900">360° VR Content</p>
+                <p className="text-gray-600">Ready-to-use exposure environments</p>
               </div>
               <div className="border-l-4 border-teal-500 pl-4">
-                <p className="text-2xl font-bold text-gray-900">Evidence-Based</p>
-                <p className="text-gray-600">Development guided by current studies</p>
+                <p className="text-2xl font-bold text-gray-900">SUD Integration</p>
+                <p className="text-gray-600">Validated distress measurement</p>
               </div>
             </div>
           </div>
 
-          {/* Right Column - Research Areas */}
+          {/* Right Column - Technology Areas */}
           <div className="mt-12 lg:mt-0 space-y-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center space-x-4">
-                <BookOpen className="h-6 w-6 text-teal-500" />
-                <h3 className="text-lg font-medium text-gray-900">Current Research Focus</h3>
+                <Video className="h-6 w-6 text-teal-500" />
+                <h3 className="text-lg font-medium text-gray-900">VR Exposure Library</h3>
               </div>
               <p className="mt-4 text-gray-500">
-                Following latest developments in VR applications for therapeutic settings
+                Collection of immersive 360° scenarios designed for various exposure therapy applications
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center space-x-4">
-                <Library className="h-6 w-6 text-teal-500" />
-                <h3 className="text-lg font-medium text-gray-900">Academic Collaboration</h3>
+                <Gauge className="h-6 w-6 text-teal-500" />
+                <h3 className="text-lg font-medium text-gray-900">SUD Measurement System</h3>
               </div>
               <p className="mt-4 text-gray-500">
-                Working with experts to ensure evidence-based development approach
+                Integrated Subjective Units of Distress (SUD) scale for real-time assessment during exposure sessions
               </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <div className="flex items-center space-x-4">
-                <Users className="h-6 w-6 text-teal-500" />
-                <h3 className="text-lg font-medium text-gray-900">Research Opportunities</h3>
+                <Scale className="h-6 w-6 text-teal-500" />
+                <h3 className="text-lg font-medium text-gray-900">Progress Monitoring</h3>
               </div>
               <p className="mt-4 text-gray-500">
-                Open to collaborative research projects with partners
+                Systematic tracking of exposure intensity and patient responses through SUD measurements
               </p>
             </div>
           </div>
@@ -70,5 +70,5 @@ const ResearchSection = () => {
     </div>
   );
 };
-export default ResearchSection;
 
+export default ResearchSection;
